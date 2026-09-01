@@ -1,0 +1,15 @@
+data/*.db
+data/*.json
+data/qr/
+uploads/
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+.env
+agrichain.db
+chain.json
+
+*.db-shm
+*.db-wal

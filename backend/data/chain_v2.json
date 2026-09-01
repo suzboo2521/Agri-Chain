@@ -1,0 +1,664 @@
+{
+  "difficulty": 2,
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1787891960.643626,
+      "transactions": [],
+      "previous_hash": "0",
+      "nonce": 109,
+      "hash": "00fabebcee12615a3d1926bbab251c1da14ce2ac353a438766181d38e73bd1a6"
+    },
+    {
+      "index": 1,
+      "timestamp": 1787891962.5702028,
+      "transactions": [
+        {
+          "tx_id": "5b2c6a2a214443cc",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "HARVEST",
+          "actor": "farmer@agrichain.local",
+          "actor_role": "FARMER",
+          "timestamp": "2026-08-28T04:39:22.570168+00:00",
+          "location": "Konaseema",
+          "document_hash": "",
+          "metadata": {
+            "note": "HARVEST recorded for demo"
+          },
+          "data_hash": "03a7b9ced39f20d28d6dcc3aceadbedfc8388fab4d1e80fa7d0bf57221affc3c"
+        }
+      ],
+      "previous_hash": "00fabebcee12615a3d1926bbab251c1da14ce2ac353a438766181d38e73bd1a6",
+      "nonce": 268,
+      "hash": "00d0c5cf5d52d1a2f2a84d1593bde4e440270c1fb18435f3e5c44a117feef7ec"
+    },
+    {
+      "index": 2,
+      "timestamp": 1787891962.581407,
+      "transactions": [
+        {
+          "tx_id": "5bdc9819828a4934",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "COLLECTION",
+          "actor": "collection@agrichain.local",
+          "actor_role": "COLLECTION_CENTER",
+          "timestamp": "2026-08-28T04:39:22.581378+00:00",
+          "location": "Amalapuram Collection Center",
+          "document_hash": "",
+          "metadata": {
+            "note": "COLLECTION recorded for demo"
+          },
+          "data_hash": "e2d1dbbbb7626389067f1ba4e3349ddc661c3f0f6cb0a9f20dac335feded4c98"
+        }
+      ],
+      "previous_hash": "00d0c5cf5d52d1a2f2a84d1593bde4e440270c1fb18435f3e5c44a117feef7ec",
+      "nonce": 12,
+      "hash": "0028c215b24cef01c390b8881aefa7d602c554c6bce4563e58aba6649ac072fd"
+    },
+    {
+      "index": 3,
+      "timestamp": 1787891962.586675,
+      "transactions": [
+        {
+          "tx_id": "e78ac036b537474d",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "QUALITY_CHECK",
+          "actor": "inspector@agrichain.local",
+          "actor_role": "QUALITY_INSPECTOR",
+          "timestamp": "2026-08-28T04:39:22.586652+00:00",
+          "location": "Kakinada Quality Lab",
+          "document_hash": "",
+          "metadata": {
+            "note": "QUALITY_CHECK recorded for demo"
+          },
+          "data_hash": "99633771d5599ef21fc31d936fcfa8eb71dfeb64c89d757b802a028a9fc86dc2"
+        }
+      ],
+      "previous_hash": "0028c215b24cef01c390b8881aefa7d602c554c6bce4563e58aba6649ac072fd",
+      "nonce": 27,
+      "hash": "005d04559781b14809cdd6eb1843fc2d10d12676154b7de58bb5e220ce9db131"
+    },
+    {
+      "index": 4,
+      "timestamp": 1787891962.591149,
+      "transactions": [
+        {
+          "tx_id": "9c02b6f1323148f5",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "TRANSPORT",
+          "actor": "transporter@agrichain.local",
+          "actor_role": "TRANSPORTER",
+          "timestamp": "2026-08-28T04:39:22.591133+00:00",
+          "location": "NH-16 corridor",
+          "document_hash": "",
+          "metadata": {
+            "note": "TRANSPORT recorded for demo",
+            "distance_km": 82,
+            "delay_hours": 3
+          },
+          "data_hash": "d72843d6ecd9116dc08060cc87bea31951c1a4fb95ea6ebc68c14a031a43c13c"
+        }
+      ],
+      "previous_hash": "005d04559781b14809cdd6eb1843fc2d10d12676154b7de58bb5e220ce9db131",
+      "nonce": 549,
+      "hash": "003ad58f7b2d3dc2932bf70e5af4e203a0174db52c534e125d30cd2936cbcfc3"
+    },
+    {
+      "index": 5,
+      "timestamp": 1787891962.5977988,
+      "transactions": [
+        {
+          "tx_id": "a739fc31455e4402",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "WAREHOUSE_ENTRY",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.597777+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_ENTRY recorded for demo"
+          },
+          "data_hash": "7157ff05d0faa0de4ee33807ac8192b08cd55065b10b7035b95eaeceb0c16034"
+        }
+      ],
+      "previous_hash": "003ad58f7b2d3dc2932bf70e5af4e203a0174db52c534e125d30cd2936cbcfc3",
+      "nonce": 751,
+      "hash": "00dbc6b4c8c22b7d6f805a4243bd64a38b06b72b690b876af519b14d84429d31"
+    },
+    {
+      "index": 6,
+      "timestamp": 1787891962.605953,
+      "transactions": [
+        {
+          "tx_id": "1af3281fc56b4394",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "WAREHOUSE_EXIT",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.605925+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_EXIT recorded for demo"
+          },
+          "data_hash": "77f4d702fbbe9d70b3daef883f282f1b5a9b90e46da70bf5f7afb78a92b2797b"
+        }
+      ],
+      "previous_hash": "00dbc6b4c8c22b7d6f805a4243bd64a38b06b72b690b876af519b14d84429d31",
+      "nonce": 18,
+      "hash": "008eea129d5bd6b75ac575e17a467f4d69fcdb2023bc65609926666556f8860f"
+    },
+    {
+      "index": 7,
+      "timestamp": 1787891962.610573,
+      "transactions": [
+        {
+          "tx_id": "4a93016ce95f486f",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "PROCESSING",
+          "actor": "processor@agrichain.local",
+          "actor_role": "PROCESSOR",
+          "timestamp": "2026-08-28T04:39:22.610561+00:00",
+          "location": "Bhimavaram Mill",
+          "document_hash": "",
+          "metadata": {
+            "note": "PROCESSING recorded for demo"
+          },
+          "data_hash": "b57a4e97f5e57414d4e673b84518cc84c42d9bcef6f39f694d9f9d169c1d6d3a"
+        }
+      ],
+      "previous_hash": "008eea129d5bd6b75ac575e17a467f4d69fcdb2023bc65609926666556f8860f",
+      "nonce": 214,
+      "hash": "004dc58a72c220f1e5c5716798b56d4c7ff916a567f59e8533ec48aae6afb999"
+    },
+    {
+      "index": 8,
+      "timestamp": 1787891962.615844,
+      "transactions": [
+        {
+          "tx_id": "d38194da01564da6",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "DISTRIBUTION",
+          "actor": "distributor@agrichain.local",
+          "actor_role": "DISTRIBUTOR",
+          "timestamp": "2026-08-28T04:39:22.615833+00:00",
+          "location": "Vijayawada Hub",
+          "document_hash": "",
+          "metadata": {
+            "note": "DISTRIBUTION recorded for demo"
+          },
+          "data_hash": "81e2b5f727b996a7ccf371ccf95263606e51c8da8828e6f79ca2a9c227d7deb9"
+        }
+      ],
+      "previous_hash": "004dc58a72c220f1e5c5716798b56d4c7ff916a567f59e8533ec48aae6afb999",
+      "nonce": 157,
+      "hash": "00271d4beee3afea94d37eb163ea97147816ed3a66d208f3e19721ce59d7be18"
+    },
+    {
+      "index": 9,
+      "timestamp": 1787891962.6213288,
+      "transactions": [
+        {
+          "tx_id": "12d467d1810146a8",
+          "batch_id": "RICE-KONASEEMA-2026-0001",
+          "event_type": "RETAIL",
+          "actor": "retailer@agrichain.local",
+          "actor_role": "RETAILER",
+          "timestamp": "2026-08-28T04:39:22.621311+00:00",
+          "location": "GreenMart Visakhapatnam",
+          "document_hash": "",
+          "metadata": {
+            "note": "RETAIL recorded for demo"
+          },
+          "data_hash": "a06cc32d95a85002c032ec63853b649d7b746dbdc935ace0ecedeeb815930cb8"
+        }
+      ],
+      "previous_hash": "00271d4beee3afea94d37eb163ea97147816ed3a66d208f3e19721ce59d7be18",
+      "nonce": 706,
+      "hash": "000443bc55d7e9ea953333e6ea3445f6d0bd22c223c82542c372ebce949a681c"
+    },
+    {
+      "index": 10,
+      "timestamp": 1787891962.638133,
+      "transactions": [
+        {
+          "tx_id": "0b49caefc7044906",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "HARVEST",
+          "actor": "farmer@agrichain.local",
+          "actor_role": "FARMER",
+          "timestamp": "2026-08-28T04:39:22.638110+00:00",
+          "location": "Konaseema",
+          "document_hash": "",
+          "metadata": {
+            "note": "HARVEST recorded for demo"
+          },
+          "data_hash": "54f51290ba47fef0956f3619feffed81816606b07aa7a60967de50f9634e23f8"
+        }
+      ],
+      "previous_hash": "000443bc55d7e9ea953333e6ea3445f6d0bd22c223c82542c372ebce949a681c",
+      "nonce": 77,
+      "hash": "00a69ea431b840129551991619276a6a4a3eddbeb3908e7a19054b08e132fcb5"
+    },
+    {
+      "index": 11,
+      "timestamp": 1787891962.642818,
+      "transactions": [
+        {
+          "tx_id": "0e736b7cbc4d4e7f",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "COLLECTION",
+          "actor": "collection@agrichain.local",
+          "actor_role": "COLLECTION_CENTER",
+          "timestamp": "2026-08-28T04:39:22.642808+00:00",
+          "location": "Amalapuram Collection Center",
+          "document_hash": "",
+          "metadata": {
+            "note": "COLLECTION recorded for demo"
+          },
+          "data_hash": "3463b93346defa40977033b25b6d59b16ec38e989cb32c82c6f6e6e15e669c2f"
+        }
+      ],
+      "previous_hash": "00a69ea431b840129551991619276a6a4a3eddbeb3908e7a19054b08e132fcb5",
+      "nonce": 415,
+      "hash": "00f45fbb1ad394c5ef963a9fc409e1dec352b82f81bdc5a063fc1057ac512814"
+    },
+    {
+      "index": 12,
+      "timestamp": 1787891962.648236,
+      "transactions": [
+        {
+          "tx_id": "06b4e1be6a1d4fc7",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "QUALITY_CHECK",
+          "actor": "inspector@agrichain.local",
+          "actor_role": "QUALITY_INSPECTOR",
+          "timestamp": "2026-08-28T04:39:22.648226+00:00",
+          "location": "Kakinada Quality Lab",
+          "document_hash": "",
+          "metadata": {
+            "note": "QUALITY_CHECK recorded for demo"
+          },
+          "data_hash": "07b88529e7e03743228968aa3f01b88c31ce7078a0602f732ecd42d0f44e82b7"
+        }
+      ],
+      "previous_hash": "00f45fbb1ad394c5ef963a9fc409e1dec352b82f81bdc5a063fc1057ac512814",
+      "nonce": 17,
+      "hash": "00acfac2c21888cf9a116de9d70bff23d98b6d52f63d581c7ad6ad7e91739d73"
+    },
+    {
+      "index": 13,
+      "timestamp": 1787891962.6520472,
+      "transactions": [
+        {
+          "tx_id": "c9ee967c344b45c9",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "TRANSPORT",
+          "actor": "transporter@agrichain.local",
+          "actor_role": "TRANSPORTER",
+          "timestamp": "2026-08-28T04:39:22.652038+00:00",
+          "location": "NH-16 corridor",
+          "document_hash": "",
+          "metadata": {
+            "note": "TRANSPORT recorded for demo",
+            "distance_km": 82,
+            "delay_hours": 3
+          },
+          "data_hash": "ba147b15c99c85a5bfe4fd8b761499ac6581a588ff8d8daed1460af3da0fcdb6"
+        }
+      ],
+      "previous_hash": "00acfac2c21888cf9a116de9d70bff23d98b6d52f63d581c7ad6ad7e91739d73",
+      "nonce": 368,
+      "hash": "001523133b2fd157c323920a1303b03e5e8bfcbadfe0d618d8c8633e2b8f88f9"
+    },
+    {
+      "index": 14,
+      "timestamp": 1787891962.6574621,
+      "transactions": [
+        {
+          "tx_id": "c9a85de53ead4c96",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "WAREHOUSE_ENTRY",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.657453+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_ENTRY recorded for demo"
+          },
+          "data_hash": "1e217dea9037fb6b2f560a013746ee28bad2751cc30c8fee131dea92730d1b36"
+        }
+      ],
+      "previous_hash": "001523133b2fd157c323920a1303b03e5e8bfcbadfe0d618d8c8633e2b8f88f9",
+      "nonce": 240,
+      "hash": "0046d7d5c73b27d7bd37546ae3490c9aec6f43f5146e9670fbf6827798a54384"
+    },
+    {
+      "index": 15,
+      "timestamp": 1787891962.662786,
+      "transactions": [
+        {
+          "tx_id": "60b900b413bd46e2",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "WAREHOUSE_EXIT",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.662761+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_EXIT recorded for demo"
+          },
+          "data_hash": "4163c970a22ad10d6b3384d72b8d23a6a7953122d683b8061ccc9483d5ed7bb8"
+        }
+      ],
+      "previous_hash": "0046d7d5c73b27d7bd37546ae3490c9aec6f43f5146e9670fbf6827798a54384",
+      "nonce": 673,
+      "hash": "0083d67fd26e424161d6a01bf3ae0ba95e1ca39b0e62b257acd1cb5df3a90fbe"
+    },
+    {
+      "index": 16,
+      "timestamp": 1787891962.669554,
+      "transactions": [
+        {
+          "tx_id": "57ef17210dee4c6f",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "PROCESSING",
+          "actor": "processor@agrichain.local",
+          "actor_role": "PROCESSOR",
+          "timestamp": "2026-08-28T04:39:22.669538+00:00",
+          "location": "Bhimavaram Mill",
+          "document_hash": "",
+          "metadata": {
+            "note": "PROCESSING recorded for demo"
+          },
+          "data_hash": "13bcaa77ad9aa59bb1b79fd73843253e3abe0fa264e7c5dac9554835405ae40c"
+        }
+      ],
+      "previous_hash": "0083d67fd26e424161d6a01bf3ae0ba95e1ca39b0e62b257acd1cb5df3a90fbe",
+      "nonce": 62,
+      "hash": "00ea2cfc403cae2139e26286c80b0dee501442ff0dae0bf6ccb7b535f0e5ab75"
+    },
+    {
+      "index": 17,
+      "timestamp": 1787891962.674007,
+      "transactions": [
+        {
+          "tx_id": "53c04c3aad564936",
+          "batch_id": "RICE-AMALAPURAM-2026-0002",
+          "event_type": "DISTRIBUTION",
+          "actor": "distributor@agrichain.local",
+          "actor_role": "DISTRIBUTOR",
+          "timestamp": "2026-08-28T04:39:22.673995+00:00",
+          "location": "Vijayawada Hub",
+          "document_hash": "",
+          "metadata": {
+            "note": "DISTRIBUTION recorded for demo"
+          },
+          "data_hash": "3bae402dca9e0033d5fabee375559099d3ee7eae81715cb7ebd122b0d9843d23"
+        }
+      ],
+      "previous_hash": "00ea2cfc403cae2139e26286c80b0dee501442ff0dae0bf6ccb7b535f0e5ab75",
+      "nonce": 589,
+      "hash": "00d80a71b2830900a00c6898fabfcd27a44a5ff8ee7bfcba540db715c5fd39e9"
+    },
+    {
+      "index": 18,
+      "timestamp": 1787891962.687862,
+      "transactions": [
+        {
+          "tx_id": "6959da37b41b49cc",
+          "batch_id": "CHILLI-GUNTUR-2026-0003",
+          "event_type": "HARVEST",
+          "actor": "farmer@agrichain.local",
+          "actor_role": "FARMER",
+          "timestamp": "2026-08-28T04:39:22.687845+00:00",
+          "location": "Konaseema",
+          "document_hash": "",
+          "metadata": {
+            "note": "HARVEST recorded for demo"
+          },
+          "data_hash": "5992fbc463963e194e5ae4fb0107a5e79b9884fe53ea9fe12907c4d713923d92"
+        }
+      ],
+      "previous_hash": "00d80a71b2830900a00c6898fabfcd27a44a5ff8ee7bfcba540db715c5fd39e9",
+      "nonce": 447,
+      "hash": "006da104abcc03800d8886361c9ff0e7337b2a83a6adf2a5118ab2437d06341c"
+    },
+    {
+      "index": 19,
+      "timestamp": 1787891962.693523,
+      "transactions": [
+        {
+          "tx_id": "e14460692eb446f6",
+          "batch_id": "CHILLI-GUNTUR-2026-0003",
+          "event_type": "COLLECTION",
+          "actor": "collection@agrichain.local",
+          "actor_role": "COLLECTION_CENTER",
+          "timestamp": "2026-08-28T04:39:22.693514+00:00",
+          "location": "Amalapuram Collection Center",
+          "document_hash": "",
+          "metadata": {
+            "note": "COLLECTION recorded for demo"
+          },
+          "data_hash": "3a8f01d4715c9db714e33db5ea85b573a352d90b18c79a551229df79c993f04e"
+        }
+      ],
+      "previous_hash": "006da104abcc03800d8886361c9ff0e7337b2a83a6adf2a5118ab2437d06341c",
+      "nonce": 42,
+      "hash": "002eec86411e634417c0afe4c4c979d3a73f14a69f3ae7287ad09efae7e51b07"
+    },
+    {
+      "index": 20,
+      "timestamp": 1787891962.697711,
+      "transactions": [
+        {
+          "tx_id": "b05d6790189c49b3",
+          "batch_id": "CHILLI-GUNTUR-2026-0003",
+          "event_type": "QUALITY_CHECK",
+          "actor": "inspector@agrichain.local",
+          "actor_role": "QUALITY_INSPECTOR",
+          "timestamp": "2026-08-28T04:39:22.697701+00:00",
+          "location": "Kakinada Quality Lab",
+          "document_hash": "",
+          "metadata": {
+            "note": "QUALITY_CHECK recorded for demo"
+          },
+          "data_hash": "9e61014c2f59ccaa2489ae5602faf57fe8149c78095beb3e70c7ebc5894bf74c"
+        }
+      ],
+      "previous_hash": "002eec86411e634417c0afe4c4c979d3a73f14a69f3ae7287ad09efae7e51b07",
+      "nonce": 44,
+      "hash": "00421f19e8c73f29c34a659c699f5bca003a86fc59d4657bb10bbb3d4f8704e2"
+    },
+    {
+      "index": 21,
+      "timestamp": 1787891962.709449,
+      "transactions": [
+        {
+          "tx_id": "f44ed0c331f44665",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "HARVEST",
+          "actor": "farmer@agrichain.local",
+          "actor_role": "FARMER",
+          "timestamp": "2026-08-28T04:39:22.709437+00:00",
+          "location": "Konaseema",
+          "document_hash": "",
+          "metadata": {
+            "note": "HARVEST recorded for demo"
+          },
+          "data_hash": "a5e58502589aa5340871b477ae1f0bf20a142de45a84c48aad989cdb2a2a6d59"
+        }
+      ],
+      "previous_hash": "00421f19e8c73f29c34a659c699f5bca003a86fc59d4657bb10bbb3d4f8704e2",
+      "nonce": 455,
+      "hash": "0059a3a7d4be530e9e91da554c82146ce2f385812ef3e894bc5c87ff32667873"
+    },
+    {
+      "index": 22,
+      "timestamp": 1787891962.714988,
+      "transactions": [
+        {
+          "tx_id": "d177748032944fa6",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "COLLECTION",
+          "actor": "collection@agrichain.local",
+          "actor_role": "COLLECTION_CENTER",
+          "timestamp": "2026-08-28T04:39:22.714980+00:00",
+          "location": "Amalapuram Collection Center",
+          "document_hash": "",
+          "metadata": {
+            "note": "COLLECTION recorded for demo"
+          },
+          "data_hash": "52dff86e88cbb2d4fdda14f93d00251063b49490c2c651c5a8c0a89a29acf17d"
+        }
+      ],
+      "previous_hash": "0059a3a7d4be530e9e91da554c82146ce2f385812ef3e894bc5c87ff32667873",
+      "nonce": 396,
+      "hash": "003e485b51ca434fd96ab11b9d05b31d0169a3eb59f1d498eb833b81bec2e420"
+    },
+    {
+      "index": 23,
+      "timestamp": 1787891962.720258,
+      "transactions": [
+        {
+          "tx_id": "c2d8ea99a62f4901",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "QUALITY_CHECK",
+          "actor": "inspector@agrichain.local",
+          "actor_role": "QUALITY_INSPECTOR",
+          "timestamp": "2026-08-28T04:39:22.720248+00:00",
+          "location": "Kakinada Quality Lab",
+          "document_hash": "",
+          "metadata": {
+            "note": "QUALITY_CHECK recorded for demo"
+          },
+          "data_hash": "f99fff3aa2d3b7e97c28e4292ab252e7d108606e44fbcadc7ac68870eee1ee58"
+        }
+      ],
+      "previous_hash": "003e485b51ca434fd96ab11b9d05b31d0169a3eb59f1d498eb833b81bec2e420",
+      "nonce": 72,
+      "hash": "00e2c79ac45ba15b2717961699ea192f91b3013f2f34c63af2c88515c2656e15"
+    },
+    {
+      "index": 24,
+      "timestamp": 1787891962.724391,
+      "transactions": [
+        {
+          "tx_id": "666355b182f24c59",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "TRANSPORT",
+          "actor": "transporter@agrichain.local",
+          "actor_role": "TRANSPORTER",
+          "timestamp": "2026-08-28T04:39:22.724382+00:00",
+          "location": "NH-16 corridor",
+          "document_hash": "",
+          "metadata": {
+            "note": "TRANSPORT recorded for demo",
+            "distance_km": 210,
+            "delay_hours": 31
+          },
+          "data_hash": "0a4b1c75f9398919c664a7aa7b5b9a6e4e694c9e8da80dce1b9c54e57a787040"
+        }
+      ],
+      "previous_hash": "00e2c79ac45ba15b2717961699ea192f91b3013f2f34c63af2c88515c2656e15",
+      "nonce": 373,
+      "hash": "0086411de3f977596dc6ab2f6d8ea8840c72d84997b8c58b3c76e81faa53cb25"
+    },
+    {
+      "index": 25,
+      "timestamp": 1787891962.730613,
+      "transactions": [
+        {
+          "tx_id": "cdfba3dbcb544244",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "WAREHOUSE_ENTRY",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.730603+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_ENTRY recorded for demo"
+          },
+          "data_hash": "8c2a24e2ab78aa5c0f2b24e0b72129e585ae23da16c39020c7eb4a47734f0e99"
+        }
+      ],
+      "previous_hash": "0086411de3f977596dc6ab2f6d8ea8840c72d84997b8c58b3c76e81faa53cb25",
+      "nonce": 82,
+      "hash": "007ca5b12145aa895c29d08e1fb2764b294b994c7ddbb523cf16f6ada0d712c9"
+    },
+    {
+      "index": 26,
+      "timestamp": 1787891962.735158,
+      "transactions": [
+        {
+          "tx_id": "80ea4740ca5d4b13",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "WAREHOUSE_EXIT",
+          "actor": "warehouse@agrichain.local",
+          "actor_role": "WAREHOUSE_MANAGER",
+          "timestamp": "2026-08-28T04:39:22.735147+00:00",
+          "location": "Eluru Cold Store",
+          "document_hash": "",
+          "metadata": {
+            "note": "WAREHOUSE_EXIT recorded for demo"
+          },
+          "data_hash": "2d65772472410c8629b17f749180ecce7cba61623cbecf4c9136c2c252fb964b"
+        }
+      ],
+      "previous_hash": "007ca5b12145aa895c29d08e1fb2764b294b994c7ddbb523cf16f6ada0d712c9",
+      "nonce": 19,
+      "hash": "00c64b99fedb9f4eb6c557f7bef3d3aca8776cd8159ace80657cbd04691f95ce"
+    },
+    {
+      "index": 27,
+      "timestamp": 1787891962.7393432,
+      "transactions": [
+        {
+          "tx_id": "e4e7b33615ab4203",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "PROCESSING",
+          "actor": "processor@agrichain.local",
+          "actor_role": "PROCESSOR",
+          "timestamp": "2026-08-28T04:39:22.739334+00:00",
+          "location": "Bhimavaram Mill",
+          "document_hash": "",
+          "metadata": {
+            "note": "PROCESSING recorded for demo"
+          },
+          "data_hash": "ae9ae1c426466cc6069094d595bcd25eb820f1e02aa0298d46ec9b609f042f59"
+        }
+      ],
+      "previous_hash": "00c64b99fedb9f4eb6c557f7bef3d3aca8776cd8159ace80657cbd04691f95ce",
+      "nonce": 16,
+      "hash": "0093d959889b5dbd25b79845ac724aaaa85d43097e1bf264a534ead6b2b59bd6"
+    },
+    {
+      "index": 28,
+      "timestamp": 1787891962.7432551,
+      "transactions": [
+        {
+          "tx_id": "be296df7e4f442ff",
+          "batch_id": "MAIZE-ELURU-2026-0004",
+          "event_type": "DISTRIBUTION",
+          "actor": "distributor@agrichain.local",
+          "actor_role": "DISTRIBUTOR",
+          "timestamp": "2026-08-28T04:39:22.743248+00:00",
+          "location": "Vijayawada Hub",
+          "document_hash": "",
+          "metadata": {
+            "note": "DISTRIBUTION recorded for demo"
+          },
+          "data_hash": "8da71e4b5d4ffd2e33f7986b6e2e8abd8907dcf3076c1cd245ed3353871ac92e"
+        }
+      ],
+      "previous_hash": "0093d959889b5dbd25b79845ac724aaaa85d43097e1bf264a534ead6b2b59bd6",
+      "nonce": 22,
+      "hash": "001b3b8abd05bb722931eeef5bd8a4478f4368071cc3e7a98275fb7fbde1b088"
+    }
+  ],
+  "pending_transactions": []
+}
